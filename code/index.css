@@ -1,0 +1,153 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
+}
+
+:root {
+	--nutmeg: rgb(133, 70, 50);
+	--darkRaspberry: rgb(123, 40, 79);
+	--white: rgb(255, 255, 255);
+	--roseWhite: rgb(255, 245, 250);
+	--eggshell: rgb(243, 230, 216);
+	--lightGrey: rgb(228, 222, 216);
+	--wengeBrown: rgb(95, 87, 78);
+	--darkCharcoal: rgb(48, 45, 44);
+}
+
+/* utility classes */
+.margin-top-bottom{
+  margin: 1rem 0;
+}
+
+.list-margin {
+  margin: 1rem 0 1rem 1rem;
+}
+
+.list-padding {
+  padding: .8rem 0 0 1rem;
+}
+
+.brown li {
+  color: var(--nutmeg);
+}
+
+.brown-text {
+  color: var(--nutmeg);
+  font-weight: 700;
+}
+
+/* tag styles */
+body {
+	background-color: var(--eggshell);
+  color: var(--darkCharcoal);
+  font-size: 16px;
+  font-family: "Outfit";
+}
+
+h1, h2 {
+  font-family: "Young Serif";
+  font-weight: 500;
+}
+
+h2 {
+  color: var(--nutmeg);
+}
+
+h3 {
+  font-weight: 600;
+}
+
+hr {
+  border-top: 1rem var(--darkCharcoal);
+  
+  margin: 2rem 0;
+}
+
+span {
+  color: var(--darkCharcoal);
+}
+
+td {
+  border-bottom: .03rem solid var(--darkCharcoal);
+
+  padding: 1rem;
+}
+
+table{
+  border-collapse: collapse;
+  text-align: left;
+
+  width: 100%;
+}
+
+/* classes and id styles */
+
+#box {
+	background-color: var(--white);
+
+	width: 70%;
+	margin: 5% 15%;
+	border-radius: 1rem;
+}
+
+#inner-box {
+	width: 90%;
+	margin: 5%;
+}
+
+#box-img {
+	width: 100%;
+}
+
+#box-img img {
+	object-fit: contain;
+  border-radius: 1rem;
+	width: 100%;
+	margin: 2rem 0 2rem;
+} 
+
+#prep-div {
+  background-color: var(--roseWhite);
+  border-radius: 1rem;
+
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+#prep-div h3 {
+  color: var(--darkRaspberry);
+  
+  padding: 0 0 .5rem;
+}
+
+.prep-time {
+  padding: 0 0 0 1rem;
+}
+
+.prep-time li {
+  color: var(--darkRaspberry);
+}
+
+.prep-time li span {
+  color: var(--darkCharcoal);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+#instruc-div ul{
+  list-style: decimal;
+}
+
+#instruc-div ul li::marker {
+  font-weight: 700;
+}
+
+#foot {
+  padding: 2rem 0;
+}
